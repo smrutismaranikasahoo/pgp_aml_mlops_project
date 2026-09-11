@@ -90,7 +90,7 @@ print(classification_report(
 # Save model
 joblib.dump(
     best_model,
-    "deployment/best_tourism_model_v1.joblib"
+    "tourism_project/deployment/best_tourism_model_v1.joblib"
 )
 
 print("Model saved to deployment/best_tourism_model_v1.joblib")
