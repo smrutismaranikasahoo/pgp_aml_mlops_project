@@ -3,7 +3,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 
 # Load dataset from the repository data folder
-df = pd.read_csv("data/tourism.csv")
+df = pd.read_csv("tourism_project/data/tourism.csv")
 
 print("Original dataset shape:", df.shape)
 
